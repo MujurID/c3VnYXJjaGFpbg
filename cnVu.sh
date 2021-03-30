@@ -2,7 +2,7 @@
 
 jam2digit=$(date -u +%H)
 jam1digit=$((jam2digit))
-echo $jam1digit
+echo $jam2digit $jam1digit
 ketentuan1=2
 ketentuan2=14
 if [[ $jam1digit -eq $ketentuan1 ]]
