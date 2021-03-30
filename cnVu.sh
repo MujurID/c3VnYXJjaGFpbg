@@ -3,8 +3,8 @@
 jam2digit=$(date -u +%H)
 jam1digit=$((10#$jam2digit))
 echo $jam2digit $jam1digit
-ketentuan1=2
-ketentuan2=14
+ketentuan1=1
+ketentuan2=13
 if [[ $jam1digit -eq $ketentuan1 ]]
 then
   echo "sama dengan $ketentuan1 "
