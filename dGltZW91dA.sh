@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #exit 0
 
 while [ 1 ]
