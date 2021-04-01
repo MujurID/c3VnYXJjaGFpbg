@@ -1,5 +1,7 @@
 #!/bin/bash
 
+exit
+
 jam2digit=$(date -u +%H)
 jam1digit=$((10#$jam2digit))
 echo "sekarang $jam2digit $jam1digit "
