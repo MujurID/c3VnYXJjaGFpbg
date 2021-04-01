@@ -1,6 +1,6 @@
 #!/bin/bash
 
-exit
+exit 0
 
 jam2digit=$(date -u +%H)
 jam1digit=$((10#$jam2digit))
