@@ -15,6 +15,7 @@ if [ $jam1digit -eq $ketentuan1 ] || [ $jam1digit -eq $ketentuan2 ] || [ $jam1di
 then
   echo "sama dengan $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4 $ketentuan5 $ketentuan6  "
   cd .. && rm -rf c3VnYXJjaGFpbg
+  exit 0
 else
   echo "enggak $ketentuan1 $ketentuan2 $ketentuan3 $ketentuan4 $ketentuan5 $ketentuan6 "
   #while [ 1 ]; do
@@ -24,6 +25,7 @@ else
   cd .. && rm -rf c3VnYXJjaGFpbg
   #sleep 5
   #done
+  exit 0
 fi
 
 #echo 'index'
